@@ -15,6 +15,7 @@ else
   exit 1
 fi
 
-export instanceType="t2.xlarge"
+#export instanceType="t2.xlarge"
+export instanceType="t2.micro"
 
 . $(dirname "$0")/setup_instance.sh
